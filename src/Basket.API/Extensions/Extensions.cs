@@ -10,6 +10,7 @@ public static class Extensions
     public static void AddApplicationServices(this IHostApplicationBuilder builder)
     {
         builder.AddDefaultAuthentication();
+        //extensions done
 
         builder.AddRedis("redis");
 
